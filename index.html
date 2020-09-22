@@ -8,56 +8,20 @@
 			href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap"
 			rel="stylesheet"
 		/>
-		<style>
-			.passage {
-				text-align: center;
-				padding: 100px;
-				background-color: rgb(40, 194, 221);
-			}
-			.main-heading {
-				text-align: center;
-				font-size: 3em;
-			}
-			body {
-				font-family: 'Fauna One';
-				margin: 50px;
-			}
-			.tech {
-				margin: 20px auto;
-				padding: 30px;
-				background-color: aqua;
-			}
-			#html,
-			#css,
-			#javascript {
-				display: inline-block;
-				width: 29.8%;
-				padding: 16px;
-			}
-			.terzo,
-			.veneno,
-			.avantador {
-				width: 32%;
-				display: inline-block;
-			}
-			.terzo,
-			.avantador {
-				margin-right: 20px;
-			}
-			#html {
-				margin-right: 20px;
-				background-color: #f708ff;
-			}
-			#css {
-				margin-right: 20px;
-				background-color: chartreuse;
-			}
-			#javascript {
-				background-color: deeppink;
-			}
-		</style>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div id="mySidebar" class="sidebar">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			<a href="#">About</a>
+			<a href="#">Services</a>
+			<a href="#">Clients</a>
+			<a href="#">Contact</a>
+		</div>
+		<div id="main">
+			<button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>
+		</div>
+
 		<h1 class="main-heading">Web Tech Lab</h1>
 		<div class="passage">
 			<h1>Hello World</h1>
@@ -136,5 +100,6 @@
 				/></a>
 			</div>
 		</div>
+		<script src="index.js"></script>
 	</body>
 </html>
