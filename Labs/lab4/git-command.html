@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>VCS</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="git.css" />
+	</head>
+	<body>
+		<h1>GITHUB BASICS</h1>
+		<hr />
+		<h2>VERSION CONTROL</h2>
+		<p>
+			Version control systems are a category of software tools that helps record
+			changes to files by keeping a track of modifications done to the code. Use
+			of Version Control System: A repository: It can be thought as a database
+			of changes. It contains all the edits and historical versions (snapshots)
+			of the project
+		</p>
+		<hr />
+		<h2 id="command">GIT COMMANDS</h2>
+		<hr />
+		<fieldset>
+			<legend>GIT CLONE</legend>
+			<p>
+				You can clone a repository from GitHub to your local computer to make it
+				easier to fix merge conflicts, add or remove files, and push larger
+				commits. When you clone a repository, you copy the repository from
+				GitHub to your local machine. Cloning a repository pulls down a full
+				copy of all the repository data that GitHub has at that point in time,
+				including all versions of every file and folder for the project. You can
+				push your changes to the remote repository on GitHub, or pull other
+				people's changes from GitHub
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>GIT COMMIT</legend>
+			<p>
+				Git commit creates a commit, which is like a snapshot of your
+				repository. These commits are snapshots of your entire repository at
+				specific times. You should make new commits often, based around logical
+				units of change. Over time, commits should tell a story of the history
+				of your repository and how it came to be the way that it currently is.
+				Commits include lots of metadata in addition to the contents and
+				message, like the author, timestamp, and more.
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>GIT PUSH</legend>
+			<p>
+				The git push command is used to upload local repository content to a
+				remote repository. Pushing is how you transfer commits from your local
+				repository to a remote repo. It's the counterpart to git fetch, but
+				whereas fetching imports commits to local branches, pushing exports
+				commits to remote branches. Remote branches are configured using the git
+				remote command. Pushing has the potential to overwrite changes, caution
+				should be taken when pushing. These issues are discussed below.
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>GIT PULL</legend>
+			<p>
+				The git pull command is one of the commands that are involved in the
+				"syncing" process. These commands work on the remote branches that are
+				configured with the git remote command. The commits are uploaded with
+				git push and download with git fetch and git pull. After making changes
+				in both cases, git merge is used to integrate changes.
+			</p>
+		</fieldset>
+		<footer>&copy Neeraj patil 1906163</footer>
+	</body>
+</html>
