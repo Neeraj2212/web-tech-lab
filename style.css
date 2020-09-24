@@ -16,32 +16,39 @@ body {
 	padding: 30px;
 	background-color: aqua;
 }
-#html,
-#css,
-#javascript {
+.html,
+.css,
+.javascript {
+	position: relative;
 	display: inline-block;
 	width: 29.8%;
 	padding: 16px;
 }
+
+.cars {
+	display: flex;
+	justify-content: center;
+}
 .terzo,
 .veneno,
 .avantador {
-	width: 32%;
+	position: relative;
+	width: 33%;
 	display: inline-block;
 }
 .terzo,
 .avantador {
 	margin-right: 20px;
 }
-#html {
+.html {
 	margin-right: 20px;
 	background-color: #f708ff;
 }
-#css {
+.css {
 	margin-right: 20px;
 	background-color: chartreuse;
 }
-#javascript {
+.javascript {
 	background-color: deeppink;
 }
 .sidebar {
@@ -102,4 +109,10 @@ body {
 .effect {
 	margin-left: 300px;
 	transition: 0.5s;
+}
+
+.make-block {
+	display: block;
+	width: 100%;
+	margin: 17px auto;
 }
