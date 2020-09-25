@@ -16,29 +16,36 @@ body {
 	padding: 30px;
 	background-color: aqua;
 }
+
+.lang {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .html,
 .css,
 .javascript {
 	position: relative;
-	display: inline-block;
-	width: 29.8%;
+	margin: 10px;
+	width: 400px;
 	padding: 16px;
 }
 
 .cars {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	transition: all 0.3s ease-in-out;
 }
 .terzo,
 .veneno,
 .avantador {
-	position: relative;
-	width: 33%;
-	display: inline-block;
+	margin: 10px;
+	width: 450px;
 }
 .terzo,
 .avantador {
-	margin-right: 20px;
 }
 .html {
 	margin-right: 20px;
@@ -109,10 +116,4 @@ body {
 .effect {
 	margin-left: 300px;
 	transition: 0.5s;
-}
-
-.make-block {
-	display: block;
-	width: 100%;
-	margin: 17px auto;
 }
