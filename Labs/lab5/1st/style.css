@@ -14,7 +14,7 @@ img {
 	transition: all 0.5s ease-in-out;
 }
 img:hover {
-	transform: scale(1.15, 1.15) rotate(-375deg);
+	transform: rotate(-375deg) scale(1.15, 1.15);
 	background-color: red;
 }
 
