@@ -10,9 +10,9 @@ html {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../images/road.webp);
 	height: 100%;
-	background-position: center fixed;
+	background-position: center;
 	background-size: cover;
-
+	min-height: 600px;
 	background-repeat: no-repeat;
 }
 
@@ -27,6 +27,7 @@ html {
 
 .navbar-brand {
 	font-size: 1.5rem;
+	font-family: 'Bree Serif', serif;
 }
 
 .content {
@@ -47,7 +48,8 @@ html {
 	background-image: url(../images/huracan.jpg);
 	position: relative;
 	height: 100%;
-	background-position: center fixed;
+	min-height: 500px;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -56,19 +58,22 @@ html {
 	background-image: url(../images/avantador1.jpg);
 
 	height: 100%;
-	background-position: center fixed;
+	min-height: 500px;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .huracan {
-	margin-top: 16%;
 	font-size: 4.5rem;
+	text-align: right;
+	color: #3d8a99;
 }
 
 .avantador {
-	margin-top: 16%;
 	font-size: 4.5rem;
+	text-align: left;
+	color: #7eb267;
 }
 
 .model3 {
@@ -76,50 +81,36 @@ html {
 
 	height: 100%;
 	padding-bottom: 40px;
-	background-position: center fixed;
+	min-height: 500px;
+	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .sian {
 	font-size: 4.5rem;
+	color: #06b2b2;
 }
 
-@media only screen and (max-width: 475px) {
+@media screen and (max-width: 992px) {
+	.sian,
+	.avantador,
+	.huracan {
+		font-size: 3.5rem;
+	}
+	.content {
+		padding-top: 70px;
+	}
+	.heading {
+		padding-top: 50px;
+		font-size: 3.5rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
 	.sian,
 	.avantador,
 	.huracan {
 		font-size: 3rem;
-	}
-	.model1,
-	.model3,
-	.model2,
-	.main-img {
-		background-position: center;
-	}
-}
-
-@media screen and (device-width: 640px) and (device-height: 360px) and (-webkit-device-pixel-ratio: 3) {
-	.heading {
-		font-size: 3rem;
-		margin-top: 20px;
-	}
-}
-
-@media screen and (max-width: 823px)  {
-	.heading {
-		margin-top: 20px;
-	}
-}
-
-@media screen and (max-width: 824px) and (orientation: landscape) {
-	.heading {
-		margin-top: 20px;
-	}
-}
-
-@media screen and (max-width: 568px ) and (orientation: landscape){
-	.heading{
-		font-size: 3rem
 	}
 }
