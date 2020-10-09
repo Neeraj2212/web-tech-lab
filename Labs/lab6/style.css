@@ -9,6 +9,10 @@ html {
 	color: floralwhite;
 }
 
+body{
+	padding:25px;
+}
+
 h1 {
 	text-align: center;
 	margin: 150px auto 50px;
