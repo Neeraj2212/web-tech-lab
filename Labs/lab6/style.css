@@ -1,21 +1,26 @@
 body,
 html {
-    background: url(Aurora.jpeg) no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    text-align: center;
-    color: floralwhite;
+	background: url(Aurora.jpeg) no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	color: floralwhite;
 }
 
 h1 {
-    text-align: center;
-    margin: 150px auto 50px;
-    font-size: 4rem;
+	text-align: center;
+	margin: 150px auto 50px;
+	font-size: 4rem;
 }
 
 h2 {
-    text-align: center;
-    margin: 50px auto 50px;
+	text-align: center;
+	margin: 50px auto 50px;
+}
+
+footer {
+	margin: 50px;
+	font-size: 2rem;
 }
